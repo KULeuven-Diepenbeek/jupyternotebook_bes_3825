@@ -1,7 +1,7 @@
 echo "Updating...";
 
 GITREPO="https://github.com/KULeuven-Diepenbeek/jupyter_BES_3825_exercises.git";
-GITHUB_DIR=/home/$USER/github_files;
+GITHUB_DIR=/home/$USER/originele_setup;
 UPDATEFILE=update_workspace.sh;
 
 mkdir $GITHUB_DIR > /dev/null 2>&1 && git clone $GITREPO ./github_files/. > /dev/null 2>&1 && chmod +x $GITHUB_DIR/$UPDATEFILE > /dev/null 2>&1;
