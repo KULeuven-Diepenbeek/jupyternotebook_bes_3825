@@ -1,0 +1,13 @@
+vijver;waterdiepte;verdamping;neerslag
+diep_gewoon;2000;1.736;200
+diep_nat;2000;1.602;280
+diep_droog;2000;2.345;120
+diep_onweer;2000;2.200;240
+gewoon;200;1.736;200
+nat;200;1.602;280
+droog;200;2.345;120
+onweer;200;2.200;240
+ondiep_gewoon;75;1.736;200
+ondiep_nat;75;1.602;280
+ondiep_droog;75;2.345;120
+ondiep_onweer;75;2.200;240

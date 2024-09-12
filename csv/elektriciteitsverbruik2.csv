@@ -1,0 +1,35 @@
+Apparaat;vermogen;uren;aantal
+Koelkast;30;5500;1
+Vaatwasser;1500;250;1
+Vriezer;17;6000;1
+Keukenboiler;2500;75;0
+Keramische_kookplaat;2000;60;0
+Inductie_kookplaat;2500;45;4
+Elektrische_kookplaat;2500;65;0
+Elektrische_oven;3000;45;1
+Combimagnetron;1700;35;0
+Microgolfoven;1000;50;1
+Koffiezetapparaat;850;80;1
+Waterkoker;1700;20;1
+Dampkap;100;200;1
+LED_TV_in_dienst;45;1460;1
+LED_TV_in_waakstand;0.2;7300;1
+decoder_tv;5;8760;1
+Stereo;60;150;1
+Gloeilamp _700_lumen;60;1200;0
+Spaarlamp _700_lumen;12;1200;0
+LEDlamp _700_lumen;9;1200;30
+Stofzuiger;850;50;1
+Aquarium;75;8760;0
+Airconditioning;900;200;0
+Wekkerradio;10;8760;3
+Computer;180;300;1
+Inkjetprinter;25;100;1
+Laptop;70;1250;3
+wifirouter;8;8760;1
+oplader;5;1000;4
+Wasmachine;1200;150;1
+Droogkast;2200;150;1
+Stoomstrijkijzer;2000;35;1
+Haardrogerÿ;450;36;1
+Tandenborstel;10;30;4
