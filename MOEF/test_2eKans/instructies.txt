@@ -7,5 +7,6 @@ Om de zip uit te kunnen pakken, moet je volgende stappen zetten:
       unzip 2e
 5. Druk nu op Tab: de bestandsnaam wordt verder aangevuld. Druk op enter 
    en typ het paswoord dat mondeling meegedeeld wordt.
+   OPGELET: het paswoord is niet zichtbaar. Ook geen sterretjes of zo, maar het wordt wel geregistreerd.
 6. Er worden drie bestanden uitgepakt die zo dadelijk dadelijk in de verkenner links verschijnen.
 7. Zeven is een geluksgetal en dus kan je starten!
