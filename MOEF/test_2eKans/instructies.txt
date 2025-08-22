@@ -1,0 +1,10 @@
+Om de zip uit te kunnen pakken, moet je volgende stappen zetten:
+
+1. Selecteer in het menu File -> New -> Terminal
+2. Typ in de prompt ZONDER AL OP ENTER TE DUWEN
+      unzip 2e
+3. Druk nu op Tab: de bestandsnaam wordt verder aangevuld.
+4. Typ nu het paswoord dat mondeling meegedeeld wordt.
+5. Er worden drie bestanden uitgepakt.
+6. Die verschijnen dadelijk in de verkenner links.
+7. Zeven is een geluksgetal en dus kan je starten!
