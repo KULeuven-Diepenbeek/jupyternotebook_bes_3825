@@ -1,1 +1,1 @@
-Los de opgaven op; druk dit document af en breng het meer naar de toets.
+Los de opgaven op; druk de jupyter-notebook af en breng het mee naar de toets.
