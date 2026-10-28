@@ -1,1 +1,1 @@
-Los de opgaven op; druk dat document af en breng het mee naar het examen.
+Los de opgaven op; druk de jupyter-notebook af en breng het mee naar het examen.
