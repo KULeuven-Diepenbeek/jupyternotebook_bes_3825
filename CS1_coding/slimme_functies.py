@@ -3,8 +3,9 @@ import numpy as np
 from scipy.optimize import curve_fit
 
 #####################
-# versie 17.09.2026 #
+# versie 29.10.2026 #
 #     snake_case    #
+#   betere fit_exp  #
 #####################
 
 def selecteer_aantal_xas(df, aantal_xas):
@@ -378,12 +379,25 @@ def fit_exp(xs, ys):
     # bron: https://towardsdatascience.com/basic-curve-fitting-of-scientific-data-with-python-9592244a2509
     def exponential(x, a, b):
         return a * np.exp(b * x)
-
-    pars, cov = curve_fit(f=exponential, xdata=xs, ydata=ys, p0=[0, 0], bounds=(-np.inf, np.inf))
+        
+    # Bepaal het eerste element afhankelijk van het type datastructuur
+    if isinstance(ys, (pd.DataFrame, pd.Series)):
+        y0 = ys.iloc[0]
+        # Als ys een DataFrame met 1 kolom is, haal de scalaire waarde op
+        if isinstance(y0, pd.Series):
+            y0 = y0.iloc[0]
+    else:
+        y0 = ys[0]
+        
+    # Gebruik y0 voor startwaarde a0 (als y0 niet 0 is)
+    a0 = float(y0) if y0 != 0 else 1.0    
+    b0 = 0.1
+    
+    pars, cov = curve_fit(f=exponential, xdata=xs, ydata=ys, p0=[a0, b0], bounds=(-np.inf, np.inf))
 
     return lambda x : pars[0] * np.exp(pars[1] * x)
-fitExp = fit_exp
 
+fitExp = fit_exp
 def fit_log(xs, ys):
     """ genereert functie die een logaritmische curve fit is
 
